@@ -1,0 +1,142 @@
+@charset "ISO-8859-1";
+body{
+	margin: auto;
+}
+.panel {
+	width: 640px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.inLine-output{
+	display: inline-block;
+    font-family: Arial;
+    color: black;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.inLine-bold{
+	display: inline-block;
+    font-family: Arial;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.inline-left{
+	display: inline-block;
+	font-family: Arial;
+	color: black;
+	font-size: 14px;
+	width: 150px;
+	margin-left: 4px;
+}
+.inline-static{
+	display: inline-block;
+	font-family: Arial;
+	color: black;
+	font-size: 14px;
+	width: 160px;
+	margin-bottom: 5px;
+}
+.error{
+	display: inline-block;
+	color: red;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+.panelHeader{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: #bbbbbb;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width: 400px;
+}
+.panelSegment{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: #bbbbbb;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width: 120px;
+}
+.panelHeaderBlank{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width: 400px;
+}
+.panelWide
+{
+	display: block;
+	padding-top: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial;
+    background-color: #cccccc;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    height: 18px;
+    width: 640px;
+}
+.panelWideWhite
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	padding-top: 4px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    height: 18px;
+    width: 640px;
+}
+.descriptor{
+	display: inline-block;
+	padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    background-color: white;
+    width: 400px;
+}
+.radioButton{
+	display: inline-block;
+	color: white;
+    background-color: white;
+    padding-right: 100px;
+}
